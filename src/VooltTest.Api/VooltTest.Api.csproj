@@ -1,0 +1,18 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.Web">
+
+	<PropertyGroup>
+		<TargetFramework>net6.0</TargetFramework>
+		<Nullable>enable</Nullable>
+		<ImplicitUsings>enable</ImplicitUsings>
+	</PropertyGroup>
+
+	<ItemGroup>
+		<PackageReference Include="Swashbuckle.AspNetCore" Version="6.5.0" />
+	</ItemGroup>
+
+	<ItemGroup>
+		<ProjectReference Include="..\VooltTest.Application\VooltTest.Application.csproj" />
+		<ProjectReference Include="..\VooltTest.Data\VooltTest.Data.csproj" />
+		<ProjectReference Include="..\VooltTest.Shared\VooltTest.Shared.csproj" />
+	</ItemGroup>
+</Project>
